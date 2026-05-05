@@ -1,0 +1,39 @@
+class Solution {
+
+    private boolean validOperator(String s) {
+       return s.equals("+") || s.equals("-") || s.equals("/")  || s.equals("*");
+    }
+
+    private int operate(String s, int a, int b) {
+       if(s.equals("+")) {
+          return a + b;
+       }
+       else if(s.equals("-")) {
+          return b - a;
+       }
+       else if(s.equals("*")) {
+          return a * b;
+       }
+       else{
+          return b/a;
+       }
+    }
+
+    public int evalRPN(String[] tokens) {
+        Stack<Integer> stack = new Stack<Integer>();
+        int result = Integer.parseInt(tokens[0]);
+        for(int i=0; i<tokens.length; i++) {
+             if(!validOperator(tokens[i])) {
+                stack.push(Integer.parseInt(tokens[i]));
+             }
+             else{
+                int firstOperator = stack.pop();
+                int secondOperator = stack.pop();
+                result = operate(tokens[i], firstOperator, secondOperator);
+                stack.push(result);
+             }
+        }
+
+        return result;
+    }
+}

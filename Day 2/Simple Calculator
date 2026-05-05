@@ -1,0 +1,23 @@
+import java.util.*;
+class Main{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        sc.nextLine();
+        System.out.println("enter the operation: ");
+        String operator=sc.nextLine();
+        if(operator.equals("+")){
+            System.out.println(a+b);
+        }
+        else if(operator.equals("-")){
+            System.out.println(a-b);
+        }
+        else if(operator.equals("*")){
+            System.out.println(a*b);
+        }
+        else{
+            System.out.println(a/b);
+        }
+    }
+}

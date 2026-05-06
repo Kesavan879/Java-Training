@@ -1,0 +1,17 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	   int a=10;
+	   int f=0;
+	   int l=1;
+	   System.out.print(f+" "+l);
+	   for(int i=3;i<=a;i++){
+	       int next=f+l;
+	       System.out.print(" "+next);
+	       f=l;
+	       l=next;
+	   }
+	 
+	}
+}

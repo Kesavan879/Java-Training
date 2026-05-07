@@ -1,0 +1,78 @@
+Beginner Level Programs
+Write a program to print "Hello World".
+Write a program to add two numbers.
+Write a program to find even or odd number.
+Write a program to swap two numbers.
+Write a program to find largest of 3 numbers.
+Write a program to check positive or negative number.
+Write a program to calculate factorial.
+Write a program to print multiplication table.
+Write a program to find sum of natural numbers.
+Write a program to find simple interest.
+Loop Programs
+Print numbers from 1 to 100.
+Print even numbers between 1 and 100.
+Print odd numbers between 1 and 100.
+Print Fibonacci series.
+Reverse a number.
+Check palindrome number.
+Count digits in a number.
+Find sum of digits.
+Check Armstrong number.
+Check prime number.
+Pattern Programs
+Star triangle pattern
+Pyramid pattern
+Inverted pyramid
+Floyd’s triangle
+Diamond pattern
+Number triangle
+Pascal triangle
+Hollow square pattern
+
+Example:
+
+*
+**
+***
+****
+Array Programs
+Find largest element in array.
+Find smallest element in array.
+Find second largest number.
+Reverse an array.
+Sort an array.
+Find duplicate elements.
+Merge two arrays.
+Find sum and average of array.
+Search an element in array.
+Copy one array to another.
+String Programs
+Reverse a string.
+Check palindrome string.
+Count vowels and consonants.
+Remove spaces from string.
+Count words in sentence.
+Convert lowercase to uppercase.
+Find duplicate characters.
+Compare two strings.
+Check anagram.
+Find frequency of characters.
+OOPs Programs
+Create a class and object.
+Program using constructor.
+Program using inheritance.
+Program using method overloading.
+Program using method overriding.
+Program using encapsulation.
+Program using abstraction.
+Program using interface.
+Program using polymorphism.
+Program using this and super.
+Exception Handling Programs
+Divide by zero exception handling.
+Use try-catch-finally.
+Create custom exception.
+Multiple catch blocks.
+Use throws keyword.
+JDBC Progra

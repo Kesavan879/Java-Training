@@ -1,0 +1,17 @@
+import java.util.*;
+public class question1{
+    public static void main(String[] args){
+        String a="aba";
+        String result="";
+        int length=a.length();
+        for(int i=length-1;i>=0;i--){
+            result=result+i;
+        }
+        if(a.equals("aba")){
+            System.out.println("Palindrome");
+        }
+        else{
+            System.out.println("Not palindrome");
+        }
+    }
+}

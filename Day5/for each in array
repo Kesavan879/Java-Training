@@ -1,0 +1,16 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    String[] arr={"noob","ben","krish"};
+	    for(String arrs:arr){
+	        if(arrs.equals("alice")){
+	            System.out.println("string is found");
+	        }
+	        else{
+	            System.out.println("String not found");
+	        }
+	    }
+		
+	}
+}
